@@ -1,4 +1,7 @@
 # EX-NO14-HASH-ALGORITHM
+## NAME: PRIYADHARSHINI P
+## REGISTER NUMBER: 212224040252
+## DATE: 17-03-2026
 
 ## AIM:
 To implement HASH ALGORITHM
@@ -27,9 +30,28 @@ To implement HASH ALGORITHM
 
 
 ## Program:
+```
+#include <stdio.h>
+
+int main(){
+    char m[100]; unsigned char h=0; int i;
+
+    scanf("%s",m);
+
+    for(i=0;m[i];i++){
+        h=h^m[i];
+        h+=m[i];
+    }
+
+    printf("Hash:%02x",h);
+}
+```
 
 
 ## Output:
+<img width="1328" height="495" alt="image" src="https://github.com/user-attachments/assets/08861d22-7a6c-4798-a0b8-6141217b0061" />
+
+
 
 ## Result:
 The program is executed successfully.
